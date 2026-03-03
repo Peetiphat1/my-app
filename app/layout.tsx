@@ -36,7 +36,7 @@ export default function RootLayout({
             <span className="text-[2rem] font-bold">CoC</span>
           </div>
 
-          <ul className="flex items-center gap-8 text-[2rem] font-semibold">
+          <ul className="hidden sm:flex items-center gap-8 text-[2rem] font-semibold">
             <li>
               <Link href="/" className="hover:text-blue-600 transition-colors">HOME</Link>
             </li>
@@ -48,10 +48,10 @@ export default function RootLayout({
             </li>
           </ul>
 
-          <div className="hidden">
-            <div className="w-[1.3em] h-1 bg-black rounded-[2em] my-1 mx-[1em]"></div>
-            <div className="w-[1.3em] h-1 bg-black rounded-[2em] my-1 mx-[1em]"></div>
-            <div className="w-[1.3em] h-1 bg-black rounded-[2em] my-1 mx-[1em]"></div>
+          <div className="flex flex-col sm:hidden cursor-pointer">
+            <div className="w-[2em] h-1 bg-black rounded-[2em] my-1 mx-[1em]"></div>
+            <div className="w-[2em] h-1 bg-black rounded-[2em] my-1 mx-[1em]"></div>
+            <div className="w-[2em] h-1 bg-black rounded-[2em] my-1 mx-[1em]"></div>
           </div>
         </nav>
 
@@ -61,11 +61,11 @@ export default function RootLayout({
         </main>
 
         {/* Footer */}
-        <footer className="flex flex-col items-center border-t-2 border-[#b39f99] mt-[2vh] pb-4 text-[#41393c]">
-          <span className="text-[clamp(0.7rem,3vw,1.5em)] font-bold mt-[1vh]">
+        <footer className="flex flex-col items-start px-6 sm:items-center sm:px-0 border-t-2 border-[#b39f99] mt-[2vh] pb-8 text-[#41393c]">
+          <span className="text-[clamp(0.9rem,3vw,1.5em)] font-bold mt-[1vh]">
             Lorem ipsum dolor sit amet
           </span>
-          <span className="text-[clamp(0.6rem,3vw,1.2em)] mt-[0.5vh] text-center px-4">
+          <span className="text-[clamp(0.6rem,3vw,1.2em)] mt-[0.5vh] text-left sm:text-center max-w-[600px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem atque veritatis voluptatibus ex dolore.
           </span>
           <span className="text-[clamp(0.7rem,3vw,1.5em)] font-bold mt-[0.5em]">

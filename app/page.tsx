@@ -11,7 +11,11 @@ export default function HOME() {
         <p className="text-[clamp(1rem,3vw,1.5rem)] mb-[0.5em]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis <br />labore odio magni minima suscipit, cum nostrum laudantium <br />maiores aperiam fugit illum culpa. Asperiores!</p>
         <p className="text-[clamp(1rem,3vw,1.5rem)] mb-0 font-bold py-[0.5em] px-[2em] rounded-[2em] bg-[#41393c] text-white cursor-pointer hover:opacity-90 transition-opacity w-fit">Join us now</p>
     </div>
-      <div className="flex justify-between items-center px-[20rem] py-[0.5em] border-y-2 border-[#b39f99] text-[1.2em] font-bold text-[#41393c] "><span className="service">SERVICE1</span><span>SERVICE2</span><span className="s3">SERVICE3</span></div>
+      <div className="flex justify-between items-center px-4 sm:px-[20rem] py-[0.5em] border-y-2 border-[#b39f99] text-[1.2em] font-bold text-[#41393c]">
+  <span className="service">SERVICE1</span>
+  <span>SERVICE2</span>
+  <span className="hidden sm:block s3">SERVICE3</span>
+</div>
 
    <div className="my-[0.8em] mx-[1em] grid grid-cols-4 gap-[0.5em]">
       <Image 
