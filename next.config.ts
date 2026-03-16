@@ -22,12 +22,9 @@ const nextConfig: NextConfig = {
       { hostname: 'cdn.shopify.com' },
       { hostname: 'www.laskasas.com' },
       { protocol: 'https', hostname: 'images.unsplash.com' },
-<<<<<<< HEAD
       { protocol: 'https', hostname: 'avatars.githubusercontent.com' 
       },
       new URL('https://avatars.githubusercontent.com/u/**?v=4'),
-=======
->>>>>>> 907eb5aeb14d25d217ae9be934616a131ff273ca
     ],
   },
 

@@ -39,17 +39,17 @@ export default function FetchPage() {
             <h1>Fetch</h1>
             <div>
                 <input
-                    className='rounded border p-2 mr-2'
+                    className='rounded border p-2 mr-2 text-black'
                     type="text" name="name"
                     value={name}
                     onChange={e => setName(e.target.value)}
                 />
                 <button
-                    className='rounded border p-2 mb-2'
+                    className='rounded border p-2 mb-2 text-black'
                     onClick={fetchUser}
                 >Fetch</button>
             </div>
-        <div className='flex border bg-amber-100 p-4 rounded-lg justify-between items-center w-auto'>
+        <div className='flex border bg-amber-100 p-4 rounded-lg justify-between items-center w-auto text-black'>
         {/* <div className='border m-2 p-2'>{JSON.stringify(data)}</div> */}
         
         <div className=''>
