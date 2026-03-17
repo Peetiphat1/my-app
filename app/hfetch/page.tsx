@@ -32,6 +32,10 @@ return (
             <div key={post.id} className="border-b-2 py-2">
                 <h3 className="font-semibold">{post.title}</h3>
                 <p className="text-sm text-gray-500">{post.body}</p>
+                <div className="mt-2 text-xs text-gray-400">
+                    <span className="mr-4">User ID: {post.userId}</span>
+                    <span>ID: {post.id}</span>
+                </div>
             </div>
         ))}
 
