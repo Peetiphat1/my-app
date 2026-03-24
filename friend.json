@@ -1,0 +1,37 @@
+{
+  "friend": [
+    {
+      "id": "2a0a",
+      "name": "Guy A",
+      "birth": "10-01-2012"
+    },
+    {
+      "id": "2a9a",
+      "name": "Girl B",
+      "birth": "20-03-2014"
+    },
+    {
+      "id": "22f3",
+      "name": "Bro C",
+      "birth": "15-05-2002"
+    },
+    {
+      "name": "dadawd",
+      "birth": "10-01-2000",
+      "id": "wBfaxqBzsJI"
+    }
+  ],
+  "foo": [
+    {
+      "name": "Bar",
+      "age": 45,
+      "id": "k7zz21Uq11A"
+    },
+    {
+      "name": "Baz",
+      "age": 46,
+      "id": "dOnvZ9bJE0g"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
